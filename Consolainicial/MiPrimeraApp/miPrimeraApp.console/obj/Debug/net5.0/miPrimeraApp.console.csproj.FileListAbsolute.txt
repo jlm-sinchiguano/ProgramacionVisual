@@ -1,5 +1,0 @@
-C:\Users\JENNY\Desktop\programacion\Consolainicial\MiPrimeraApp\miPrimeraApp.console\obj\Debug\net5.0\miPrimeraApp.console.csproj.AssemblyReference.cache
-C:\Users\JENNY\Desktop\programacion\Consolainicial\MiPrimeraApp\miPrimeraApp.console\obj\Debug\net5.0\miPrimeraApp.console.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\JENNY\Desktop\programacion\Consolainicial\MiPrimeraApp\miPrimeraApp.console\obj\Debug\net5.0\miPrimeraApp.console.AssemblyInfoInputs.cache
-C:\Users\JENNY\Desktop\programacion\Consolainicial\MiPrimeraApp\miPrimeraApp.console\obj\Debug\net5.0\miPrimeraApp.console.AssemblyInfo.cs
-C:\Users\JENNY\Desktop\programacion\Consolainicial\MiPrimeraApp\miPrimeraApp.console\obj\Debug\net5.0\miPrimeraApp.console.csproj.CoreCompileInputs.cache
