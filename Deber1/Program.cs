@@ -23,7 +23,7 @@ namespace Deber1
             luffy.reflejarQueEsFrutaDelDiablo ();
             luffy.reflejarFrutaDelDiablo ();
 
-            Console.WriteLine ("--- Anime 2 --- \n" );
+            Console.WriteLine ("\n --- Anime 2 --- \n" );
 
             DeathNote light = new DeathNote ();
             
@@ -38,7 +38,7 @@ namespace Deber1
             light.reflejarQueEsShinigami ();
             light.reflejarNombreShinigami ();
 
-            Console.WriteLine ("--- Anime 3 --- \n" );
+            Console.WriteLine ("\n --- Anime 3 --- \n" );
 
             SakuraCardCaptor sakura = new SakuraCardCaptor ();
             
@@ -54,7 +54,7 @@ namespace Deber1
             sakura.reflejarAliados ();
 
 
-            Console.WriteLine ("--- Videojuego 1 --- \n");
+            Console.WriteLine ("\n --- Videojuego 1 --- \n");
       
             ResidentEvil residentEvil2 = new ResidentEvil ();
             
@@ -69,7 +69,7 @@ namespace Deber1
             residentEvil2.reflejarCurasVacunas ();
             residentEvil2.reflejarNumeroEscenarios ();
 
-            Console.WriteLine ("--- Videojuego 2 --- \n");
+            Console.WriteLine ("\n --- Videojuego 2 --- \n");
       
             SuperMarioBros superMarioBros3 = new SuperMarioBros();
             
