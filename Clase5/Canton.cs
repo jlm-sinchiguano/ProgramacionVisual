@@ -16,7 +16,7 @@ namespace Clase5
             int acumulador = 0;
             foreach (Parroquia actual in Parroquias)
             {
-                acumulador = acumulador + actual.Habitantes();
+                acumulador = acumulador + actual.Habitantes;
             }
             return acumulador;
         }
