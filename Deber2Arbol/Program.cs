@@ -58,6 +58,9 @@ namespace Deber2Arbol
             Console.WriteLine($"Notación Infija: {(manejadorArbol.MostrarArbol(raiz, Notacion.Infijo))}");
             Console.WriteLine($"Notación Prefija: {(manejadorArbol.MostrarArbol(raiz, Notacion.Prefijo))}");
             Console.WriteLine($"Notación Postfija: {(manejadorArbol.MostrarArbol(raiz, Notacion.Postfijo))}");
+            Console.WriteLine($"Total Hojas: {manejadorArbol.TotalHojas(raiz)}");
+            Console.WriteLine($"Total Nodos: {manejadorArbol.TotalNodos(raiz)}");
+            Console.WriteLine($"Total Niveles: {manejadorArbol.TotalNiveles(raiz)}");
             Console.ReadKey();
         }
     }
