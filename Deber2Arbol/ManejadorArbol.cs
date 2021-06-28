@@ -21,6 +21,52 @@ namespace Deber2Arbol
                         return "Notación no implementada";
                 };
         }
+
+        public int TotalHojas(Nodo nodo)
+        {
+            if (SoyHoja(nodo))
+                return 1;
+           
+            int totalHojas = 0;
+            foreach(Nodo hijoActual in nodo.Hijos)
+            {
+                totalHojas += TotalHojas(hijoActual);
+            }
+            return totalHojas;
+        }
+    
+        public int TotalNodos (Nodo nodo)
+        {
+            if (SoyHoja(nodo))
+                return 1;
+        
+            int totalNodos = 0;
+            foreach(Nodo nodoActual in nodo.Hijos)
+            {
+                totalNodos += TotalNodos(nodoActual);
+            }
+            return totalNodos + 1;
+        }
+    
+        public int TotalNiveles (Nodo nodo)
+        {
+            if (nodo == null)
+                return 0;
+            
+            var nivel = 0;
+            foreach(Nodo nodoActual in nodo.Hijos)
+            {
+                var nivelActual = TotalNiveles(nodoActual);
+                if(nivel < nivelActual)
+                   nivel = nivelActual;
+            }
+            return ++nivel;
+        }
+    
+        private bool SoyHoja (Nodo nodo)
+        {
+            return !nodo.Hijos.Any();
+        }
     } 
 
     public enum Notacion
